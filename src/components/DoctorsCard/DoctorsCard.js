@@ -4,7 +4,7 @@ import './DoctorsCard.css'
 const DoctorsCard = () => {
     return (
         <div>
-            
+            <h2>This is DoctorsCard</h2>
         </div>
     );
 };
