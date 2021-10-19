@@ -1,20 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import img01 from "../../img/01.jpg";
 import img02 from "../../img/02.jpg";
 import img03 from "../../img/03.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faPhoneAlt,
-    faEnvelope,
-  } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import img1 from "../../img/icon-img-1.webp";
 import img2 from "../../img/icon-img-2.webp";
 import img3 from "../../img/icon-img-3.webp";
 import img4 from "../../img/icon-img-4.webp";
-import { Carousel } from "react-bootstrap";
+import { Carousel, } from "react-bootstrap";
 
 import dep1 from "../../img/01.webp";
 import dep2 from "../../img/02.png";
@@ -29,7 +26,6 @@ import dep10 from "../../img/10.png";
 import dep11 from "../../img/11.png";
 import dep12 from "../../img/12.png";
 
-
 import bed01 from "../../img/Patient_bed 01.png";
 import bed02 from "../../img/Patient_bed 02.png";
 
@@ -37,8 +33,15 @@ import doc01 from "../../img/doc1.jpg";
 import doc02 from "../../img/doc2.jpg";
 import doc03 from "../../img/doc3.jpg";
 import doc04 from "../../img/doc4.jpg";
+import HomeServicesCard from "../HomeServicesCard/HomeServicesCard";
 
 const Home = () => {
+  const [homeServicesCards, setHomeServicesCard] = useState([]);
+  useEffect(() => {
+    fetch("/homeCardServices.json")
+      .then((res) => res.json())
+      .then((data) => setHomeServicesCard(data));
+  }, []);
   return (
     <div>
       <Carousel fade>
@@ -94,7 +97,8 @@ const Home = () => {
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Experienced Physicians</h5>
             <h6 class="fw-light pe-3">
               Your health is your most important asset. You should entrust it
-              only to the best professionals.
+              only to the best professiimport HomeServicesCard from './../HomeServicesCard/HomeServicesCard';
+onals.
             </h6>
           </div>
           <div className="ps-4">
@@ -238,9 +242,13 @@ const Home = () => {
             <Carousel.Item>
               <img className="d-block w-100" src={bed01} alt="First slide" />
               <Carousel.Caption className="mb-5 pb-5 pe-5 mb-5 fs-2 text-start">
-              <h1 className="text-dark fw-normal">Our Hospital Special Bed</h1>
+                <h1 className="text-dark fw-normal">
+                  Our Hospital Special Bed
+                </h1>
                 <h3 className="text-dark fw-light ">
-                A hospital bed or hospital cot is a bed specially <br /> designed for hospitalized patients or others in <br /> need of some form of health care.
+                  A hospital bed or hospital cot is a bed specially <br />{" "}
+                  designed for hospitalized patients or others in <br /> need of
+                  some form of health care.
                 </h3>
                 <button
                   type="button"
@@ -254,9 +262,13 @@ const Home = () => {
               <img className="d-block w-100" src={bed02} alt="Second slide" />
 
               <Carousel.Caption className="mb-5 pb-5 pe-5 mb-5 fs-2 text-start">
-                <h1 className="text-dark fw-normal">Our Hospital Special Bed</h1>
+                <h1 className="text-dark fw-normal">
+                  Our Hospital Special Bed
+                </h1>
                 <h3 className="text-dark fw-light ">
-                A hospital bed or hospital cot is a bed specially <br /> designed for hospitalized patients or others in <br /> need of some form of health care.
+                  A hospital bed or hospital cot is a bed specially <br />{" "}
+                  designed for hospitalized patients or others in <br /> need of
+                  some form of health care.
                 </h3>
                 <button
                   type="button"
@@ -270,49 +282,91 @@ const Home = () => {
         </div>
       </div>
       <div>
-      <div className="container pb-5 mb-4  text-start">
-        <h1>Our Medical Specialists</h1>
-        <hr />
-        <div className="d-flex pt-5 ps-5">
-          <div className="ps-4">
-
-            <img width="270px" height="270px" src={doc01} alt="" />
-            <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">CONSULTING DOCTOR</h6>
-            <h6 class="fw-bold pe-3">
-            Dr. Sarah Johnson
-            </h6>
-            <span className="text-secondary"> <FontAwesomeIcon icon={faPhoneAlt} size="lg" />  +800 852 45 64</span> <br />
-            <span className="text-secondary "> <FontAwesomeIcon icon={faEnvelope} size="lg" />  sarahjohnson@ahc.com</span>
-          </div>
-          <div className="ps-4">
-            <img width="270px" height="270px" src={doc02} alt="" />
-            <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">DENTAL HYGIENIST</h6>
-            <h6 class="fw-bold pe-3">
-            Dr. Greg House
-            </h6>
-            <span className="text-secondary"> <FontAwesomeIcon icon={faPhoneAlt} size="lg" />  +800 741 45 57</span> <br />
-            <span className="text-secondary"> <FontAwesomeIcon icon={faEnvelope} size="lg" />  greghouse@ahc.com</span>
-          </div>
-          <div className="ps-4">
-            <img width="270px" height="270px" src={doc03} alt="" />
-            <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">PEDIATRICIAN</h6>
-            <h6 class="fw-bold pe-3">
-            Dr. Marta Stewart
-            </h6>
-            <span className="text-secondary"> <FontAwesomeIcon icon={faPhoneAlt} size="lg" />  +800 963 45 67</span> <br />
-            <span className="text-secondary"> <FontAwesomeIcon icon={faEnvelope} size="lg" />  martastewart@ahc.com</span>
-          </div>
-          <div className="ps-4">
-            <img width="270px" height="270px" src={doc04} alt="" />
-            <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">CARDIAC SURGEON</h6>
-            <h6 class="fw-bold pe-3">
-            Dr. Night Shyamalan
-            </h6>
-            <span className="text-secondary"> <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 258 45 65</span> <br />
-            <span className="text-secondary"> <FontAwesomeIcon icon={faEnvelope} size="lg" />  nightshyamalan@ahc.com</span>
+        <div className="container pb-5 mb-4  text-start">
+          <h1>Our Medical Specialists</h1>
+          <hr />
+          <div className="d-flex pt-5 ps-5">
+            <div className="ps-4">
+              <img width="270px" height="270px" src={doc01} alt="" />
+              <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
+                CONSULTING DOCTOR
+              </h6>
+              <h6 class="fw-bold pe-3">Dr. Sarah Johnson</h6>
+              <span className="text-secondary">
+                {" "}
+                <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 852 45 64
+              </span>{" "}
+              <br />
+              <span className="text-secondary ">
+                {" "}
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />{" "}
+                sarahjohnson@ahc.com
+              </span>
+            </div>
+            <div className="ps-4">
+              <img width="270px" height="270px" src={doc02} alt="" />
+              <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
+                DENTAL HYGIENIST
+              </h6>
+              <h6 class="fw-bold pe-3">Dr. Greg House</h6>
+              <span className="text-secondary">
+                {" "}
+                <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 741 45 57
+              </span>{" "}
+              <br />
+              <span className="text-secondary">
+                {" "}
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />{" "}
+                greghouse@ahc.com
+              </span>
+            </div>
+            <div className="ps-4">
+              <img width="270px" height="270px" src={doc03} alt="" />
+              <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
+                PEDIATRICIAN
+              </h6>
+              <h6 class="fw-bold pe-3">Dr. Marta Stewart</h6>
+              <span className="text-secondary">
+                {" "}
+                <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 963 45 67
+              </span>{" "}
+              <br />
+              <span className="text-secondary">
+                {" "}
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />{" "}
+                martastewart@ahc.com
+              </span>
+            </div>
+            <div className="ps-4">
+              <img width="270px" height="270px" src={doc04} alt="" />
+              <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
+                CARDIAC SURGEON
+              </h6>
+              <h6 class="fw-bold pe-3">Dr. Night Shyamalan</h6>
+              <span className="text-secondary">
+                {" "}
+                <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 258 45 65
+              </span>{" "}
+              <br />
+              <span className="text-secondary">
+                {" "}
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />{" "}
+                nightshyamalan@ahc.com
+              </span>
+            </div>
           </div>
         </div>
       </div>
+      <div className="container text-start">
+        <h1>Our Popular Services</h1>
+        <hr />
+        <div className="container mb-5 mt-5">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          {homeServicesCards.map((homeServiceCard) => (
+            <HomeServicesCard key={homeServiceCard.id} homeServiceCard={homeServiceCard}></HomeServicesCard>
+          ))}
+        </div>
+      </div>  
       </div>
     </div>
   );

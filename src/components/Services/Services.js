@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useEffect } from 'react';
+import ServicesCard from './../ServicesCard/ServicesCard';
 
 const Services = () => {
+    const [servicesCards, setServicesCard] = useState([]);
+    useEffect(() => {
+      fetch("/services.json")
+        .then((res) => res.json())
+        .then((data) => setServicesCard(data));
+    }, []);
     return (
         <div>
-            <h2>This is Services</h2>
+             <div className="container mb-5 mt-5">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+          {servicesCards.map((servicesCards) => (
+            <ServicesCard key={servicesCards.id} servicesCards={servicesCards}></ServicesCard>
+          ))}
+        </div>
+      </div>  
         </div>
     );
 };
