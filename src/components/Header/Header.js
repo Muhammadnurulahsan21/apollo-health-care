@@ -93,10 +93,10 @@ const Header = () => {
 
               <Nav.Link
                 as={Link}
-                to="/departments"
+                to="/services"
                 className="fs-5 ps-4 active"
               >
-                Departments
+                Services
               </Nav.Link>
 
               <Nav.Link as={Link} to="/about" className="fs-5 ps-4 active">

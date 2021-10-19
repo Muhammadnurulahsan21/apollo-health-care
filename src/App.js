@@ -9,8 +9,8 @@ import Header from "./Components/Header/Header";
 import Register from "./Components/Register/Register";
 import MedicineShop from './Components/MedicineShop/MedicineShop';
 import About from './Components/About/About';
-import Departments from './Components/Departments/Departments';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Services from "./Components/Services/Services";
 
 function App() {
   return (
@@ -30,8 +30,8 @@ function App() {
           <Route exact path="/medicineshop">
             <MedicineShop></MedicineShop>
           </Route>
-          <Route exact path="/departments">
-            <Departments></Departments>
+          <Route exact path="/services">
+            <Services></Services>
           </Route>
           <Route exact path="/about">
             <About></About>
