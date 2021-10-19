@@ -1,0 +1,17 @@
+.fristline-text {
+  font-size: 70px !important;
+}
+.secondline-text {
+  font-size: 42px !important;
+}
+
+.bg-img {
+    background: url(./../../img/bg01.jpg);
+    background-repeat: "no-repeat";
+    background-position: "center center";
+    background-size: "cover";
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
