@@ -201,7 +201,7 @@ const Home = () => {
             <img src={dep8} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Dental</h5>
             <h6 class="fw-light pe-3">
-              The field of dentistry dental medicine includes teeth.
+              The field of dentistry dental medicine teeth.
             </h6>
           </div>
           <div className="ps-4">
