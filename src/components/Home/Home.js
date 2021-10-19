@@ -97,8 +97,7 @@ const Home = () => {
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Experienced Physicians</h5>
             <h6 class="fw-light pe-3">
               Your health is your most important asset. You should entrust it
-              only to the best professiimport HomeServicesCard from './../HomeServicesCard/HomeServicesCard';
-onals.
+              only to the best professionals.
             </h6>
           </div>
           <div className="ps-4">

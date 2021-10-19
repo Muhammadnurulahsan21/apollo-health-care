@@ -33,7 +33,7 @@
     },
     {
       "id": "05",
-      "doctorName": "Dr. Naresh Trehan",
+      "doctorName": "Dr. Khalid Abbed",
       "dOfMedical": "Neurosurgery",
       "phone": "+800 852 45 69",
       "mail": "nareshtrehan@ahc.com",
@@ -41,8 +41,8 @@
     },
     {
       "id": "06",
-      "doctorName": "Dr. Khalid Abbed",
-      "dOfMedical": "Pediatric Anesthesiologist",
+      "doctorName": "Dr. Naresh Trehan",
+      "dOfMedical": "Anesthesiologist",
       "phone": "+800 452 45 68",
       "mail": "khalidabbed@ahc.com",
       "img": "https://doctor-img-12.netlify.app/img/06.png"
