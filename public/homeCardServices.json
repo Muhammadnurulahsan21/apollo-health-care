@@ -1,0 +1,50 @@
+[
+    {
+      "id": "01",
+      "serviceName": "Neurology",
+      "medicalFee": 5000,
+      "testFee": 2200,
+      "description": "This type of doctor treats health problems related the brain and the nerves. You may need this medical lifelong neurological disorder or have recently developed symptoms related to your nerves or the muscles.",
+      "img": "https://medi-cal-img.netlify.app/img/01.png"
+    },
+    {
+      "id": "02",
+      "serviceName": "Traumotology",
+      "medicalFee": 3500,
+      "testFee": 1400,
+      "description": "Traumatology is the practice of diagnosing treating  diseases of the Locomotor Apparatus produced by a traumatic agent Orthopedic Surgery treats problems of progressive evolution in the musculoskeletal system.",
+      "img": "https://medi-cal-img.netlify.app/img/02.png"
+    },
+    {
+      "id": "03",
+      "serviceName": "Nephrology",
+      "medicalFee": 4200,
+      "testFee": 1000,
+      "description": "The division of nephrology is currently providing multiple therapies by which the blood of the patient is being treated filter the blood from the harmful materials that are associated with the child’s disease.",
+      "img": "https://medi-cal-img.netlify.app/img/03.png"
+    },
+    {
+      "id": "04",
+      "serviceName": "Cardiology",
+      "medicalFee": 3500,
+      "testFee": 700,
+      "description": "Cardiology is the medical science that is regarding the treatment and diagnosis of any disorders and diseases related to human heart. Our cardiologists have undertake the most feasible course regarding surgery.",
+      "img": "https://medi-cal-img.netlify.app/img/04.png"
+    },
+    {
+      "id": "05",
+      "serviceName": "Pulmonary",
+      "medicalFee": 8500,
+      "testFee": 2500,
+      "description": "Pulmonary critical care, or critical care medicine, is a specialized field of emergency medicine that focuses of the respiratory or pulmonary system, which includes the lungs, trachea, or diaphragm, structures.",
+      "img": "https://medi-cal-img.netlify.app/img/05.png"
+    },
+    {
+      "id": "06",
+      "serviceName": "Births",
+      "medicalFee": 6500,
+      "testFee": 2100,
+      "description": "Birth centers provide a homey birth setting for the mother, baby, and extended family. In most cases, they're freestanding your baby changes buildings, though some attached.care of a your baby during pregnancy.",
+      "img": "https://medi-cal-img.netlify.app/img/06.png"
+    }
+]
