@@ -1,0 +1,112 @@
+[
+    {
+      "id": "01",
+      "medicineName": "Sergel 20",
+      "catagory": "Tablet",
+      "Generics": "Esomeprazole 20mg",
+      "companyName": "Healthcare Pharmaceuticals Ltd.",
+      "price": "৳7",
+      "img": "https://medicine-img-care.netlify.app/img/01.png"
+    },
+    {
+      "id": "02",
+      "medicineName": "Azyth 500",
+      "catagory": "Tablet",
+      "Generics": "Azithromycin 500mg",
+      "companyName": "Sandoz Bangladesh Limited.",
+      "price": "৳52",
+      "img": "https://medicine-img-care.netlify.app/img/02.png"
+    },
+    {
+      "id": "03",
+      "medicineName": "Moxaclav 625",
+      "catagory": "Tablet",
+      "Generics": "Amoxicillin 500mgClavulanic Acid 125mg",
+      "companyName": "Square Pharmaceuticals Limited",
+      "price": "৳30",
+      "img": "https://medicine-img-care.netlify.app/img/03.png"
+    },
+    {
+      "id": "04",
+      "medicineName": "Napa Extra",
+      "catagory": "Tablet",
+      "Generics": "Paracetamol 500mgCaffeine 65mg",
+      "companyName": "Beximco Pharmaceuticals Ltd.",
+      "price": "৳2",
+      "img": "https://medicine-img-care.netlify.app/img/04.png"
+    },
+    {
+      "id": "05",
+      "medicineName": "Ace 500",
+      "catagory": "Tablet",
+      "Generics": "Paracetamol 500mg",
+      "companyName": "Square Pharmaceuticals Limited",
+      "price": "৳1",
+      "img": "https://medicine-img-care.netlify.app/img/05.png"
+    },
+    {
+      "id": "06",
+      "medicineName": "Galvus Met 50",
+      "catagory": "Tablet",
+      "Generics": "Vildagliptin 50mg",
+      "companyName": "Novartis(Bangladesh) Limited",
+      "price": "৳30",
+      "img": "https://medicine-img-care.netlify.app/img/06.png"
+    },
+    {
+      "id": "07",
+      "medicineName": "Dialiptin-M 500",
+      "catagory": "Tablet",
+      "Generics": "Vildagliptin 50mg",
+      "companyName": "Healthcare Pharmaceuticals Ltd.",
+      "price": "৳17",
+      "img": "https://medicine-img-care.netlify.app/img/07.png"
+    },
+    {
+      "id": "08",
+      "medicineName": "Comet 500",
+      "catagory": "Tablet",
+      "Generics": "Metformin Hydrochloride 500mg",
+      "companyName": "Square Pharmaceuticals Limited",
+      "price": "৳3",
+      "img": "https://medicine-img-care.netlify.app/img/08.png"
+    },
+    {
+      "id": "09",
+      "medicineName": "Linatab M 2.5",
+      "catagory": "Tablet",
+      "Generics": "Esomeprazole 20mg",
+      "companyName": "Healthcare Pharmaceuticals Ltd.",
+      "price": "৳7",
+      "img": "https://medicine-img-care.netlify.app/img/09.png"
+    },
+    {
+        "id": "10",
+        "medicineName": "Comprid XR 60",
+        "catagory": "Tablet",
+        "Generics": "Gliclazide 60mg",
+        "companyName": "Square Pharmaceuticals Limited",
+        "price": "৳10",
+        "img": "https://medicine-img-care.netlify.app/img/10.png"
+    },
+    {
+      "id": "11",
+      "medicineName": "Diapro",
+      "catagory": "Tablet",
+      "Generics": "Gliclazide 80mg",
+      "companyName": "Square Pharmaceuticals Limited",
+      "price": "৳13",
+      "img": "https://medicine-img-care.netlify.app/img/11.png"
+    },
+    {
+      "id": "12",
+      "medicineName": "Comprid",
+      "catagory": "Tablet",
+      "Generics": "Gliclazide 80mg",
+      "companyName": "Square Pharmaceuticals Limited.",
+      "price": "৳5",
+      "img": "https://medicine-img-care.netlify.app/img/12.png"
+    }
+   
+  ]
+  
