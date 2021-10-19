@@ -1,0 +1,98 @@
+[
+    {
+      "id": "01",
+      "doctorName": "Dr. Sarah Johnson",
+      "dOfMedical": "Consulting Doctor",
+      "phone":  "+800 852 45 64",
+      "mail": "sarahjohnson@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/01.png"
+    },
+    {
+      "id": "02",
+      "doctorName": "Dr. Greg House",
+      "dOfMedical": "Dental Hygienist",
+      "phone": "+800 741 45 57",
+      "mail":  "greghouse@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/02.png"
+    },
+    {
+      "id": "03",
+      "doctorName": "Dr. Marta Stewart",
+      "dOfMedical": "Pediatrician",
+      "phone": "+800 963 45 67",
+      "mail": "martastewart@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/03.png"
+    },
+    {
+      "id": "04",
+      "doctorName": "Dr. Night Shyamalan",
+      "dOfMedical": "Cardiac Surgeon",
+      "phone": "+800 258 45 65",
+      "mail": "nightshyamalan@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/04.png"
+    },
+    {
+      "id": "05",
+      "doctorName": "Dr. Naresh Trehan",
+      "dOfMedical": "Neurosurgery",
+      "phone": "+800 852 45 69",
+      "mail": "nareshtrehan@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/05.png"
+    },
+    {
+      "id": "06",
+      "doctorName": "Dr. Khalid Abbed",
+      "dOfMedical": "Pediatric Anesthesiologist",
+      "phone": "+800 452 45 68",
+      "mail": "khalidabbed@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/06.png"
+    },
+    {
+      "id": "07",
+      "doctorName": "Dr. Corrie T.M Anderson",
+      "dOfMedical": "Cardiovascular",
+      "phone": "+800 753 45 84",
+      "mail": "corrieanderson@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/07.png"
+    },
+    {
+      "id": "08",
+      "doctorName": "Dr. Mark. F. Aaron",
+      "dOfMedical": "Adenoidectomy",
+      "phone": "+800 951 45 66",
+      "mail": "markaaron@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/08.png"
+    },
+    {
+      "id": "09",
+      "doctorName": "Antonia Novello",
+      "dOfMedical": "X-ray",
+      "phone": "+800 357 45 65",
+      "mail": "antonianovello@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/09.png"
+    },
+    {
+      "id": "10",
+      "doctorName": "Susan Flesche",
+      "dOfMedical": "Pregnancy",
+      "phone": "+800 159 45 63",
+      "mail": "susanflesche@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/10.png"
+    },
+    {
+      "id": "11",
+      "doctorName": "Gertrude Belle",
+      "dOfMedical": "For disabled",
+      "phone": "+800 654 45 62",
+      "mail": "gertrudebelle@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/11.png"
+    },
+    {
+      "id": "12",
+      "doctorName": "Margaret Chung",
+      "dOfMedical": "NMR",
+      "phone": "+800 558 45 61",
+      "mail": "margaretchung@ahc.com",
+      "img": "https://doctor-img-12.netlify.app/img/12.png"
+    }
+]
