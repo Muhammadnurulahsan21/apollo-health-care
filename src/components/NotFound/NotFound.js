@@ -5,7 +5,9 @@ import { useHistory } from "react-router";
 const NotFound = () => {
   const history = useHistory();
   return (
-    <div className="d-flex flex-column text-secondary justify-content-center align-items-center mt-3">
+    <div  className="custom-margin pt-1" >
+      <div className="d-flex custom-margin mt-5 flex-column text-secondary 
+      justify-content-center align-items-center ">
       <div className="ps-5">
         <img height="400px" width="1200px" src={backgroundImg} alt="" />
       </div>
@@ -21,6 +23,7 @@ const NotFound = () => {
         >
           Go back to our Homepage
         </button>
+      </div>
       </div>
     </div>
   );

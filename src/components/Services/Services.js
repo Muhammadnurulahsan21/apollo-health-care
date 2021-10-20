@@ -12,7 +12,7 @@ const Services = () => {
   }, []);
   return (
     <div>
-      <div className="service-img">
+      <div className="service-img custom-margin">
         <h1 className="pt-5 py-4 ps-5 ">Appllo Health Care All Services</h1>
         <h4 className="pt-1 ps-5 ">Home / Services</h4>
       </div>

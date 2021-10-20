@@ -3,7 +3,7 @@ import './ContactUs.css'
 
 const ContactUs = () => {
     return (
-        <div>
+        <div className="custom-margin">
             <h2>This is ContactUs</h2>
         </div>
     );

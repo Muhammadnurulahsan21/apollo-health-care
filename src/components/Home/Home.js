@@ -46,7 +46,7 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Carousel fade>
+      <Carousel fade className="custom-margin">
         <Carousel.Item>
           <img className="d-block w-100" src={img01} alt="First slide" />
           <Carousel.Caption className="mb-5 pb-5 pe-5 mb-5 fs-2 text-start ">

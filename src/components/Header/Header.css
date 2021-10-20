@@ -17,3 +17,8 @@
 div a{
     text-decoration: none;
 }
+.nav-bar{
+    background-color: #defff2;
+    height: 110px;
+    width: 100%;
+}

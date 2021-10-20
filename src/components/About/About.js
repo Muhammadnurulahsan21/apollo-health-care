@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div>
+        <div className="custom-margin">
             <h2>This is About</h2>
         </div>
     );

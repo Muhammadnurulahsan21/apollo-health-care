@@ -11,7 +11,7 @@ const MedicineShop = () => {
   }, []);
   return (
     <div>
-      <div className="medicine-img">
+      <div className="medicine-img custom-margin">
         <h1 className="pt-5 py-4 ps-5 ">Appllo Health Care MedicineShope</h1>
         <h4 className="pt-1 pt-3 ps-5 ">Home / MedicineShope</h4>
         <h5 className="ps-5 pt-3 fw-normal">Medicine is the science and practice of caring for a patient, <br /> managing the diagnosis, prognosis, prevention, treatment, <br /> palliation their injury or disease, and promoting their health.</h5>

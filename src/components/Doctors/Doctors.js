@@ -11,7 +11,7 @@ const Doctors = () => {
   }, []);
   return (
     <div>
-      <div className="mb-5 doctors-img">
+      <div className="mb-5 doctors-img custom-margin">
         <h1 className="pt-3 ps-5 ">Our All Doctors</h1>
         <h4 className="pt-1 ps-5 ">Home / Doctors</h4>
       </div>
