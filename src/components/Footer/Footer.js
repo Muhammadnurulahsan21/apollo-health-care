@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
       <div className="news-latter ">
         <div className="container d-flex justify-content-center px-5  text-white">
-        <h2 className="px-5 mt-3">SIGN UP FOR NEWSLETTER</h2>
+          <h2 className="px-5 mt-3">SIGN UP FOR NEWSLETTER</h2>
           <div className="px-5 flex-grow-1 d-flex g-4 ">
             <Form.Group as={Col} className="" controlId="formGridEmail">
               <Form.Control
@@ -17,7 +17,9 @@ const Footer = () => {
                 placeholder="Enter email"
               />
             </Form.Group>
-            <Button variant="btn btn-outline-secondary py-2 px-4 m-3 me-2">Submit</Button>
+            <Button variant="btn btn-outline-secondary py-2 px-4 m-3 me-2">
+              Submit
+            </Button>
           </div>
         </div>
       </div>
@@ -39,12 +41,11 @@ const Footer = () => {
           <h5>Departments</h5>
           <hr />
           <div className="text-sm-start">
-          <a href="/"> Neurology</a>
-          <a href="/"> Thaumatology</a>
-          <a href="/"> Gynecology</a>
-          <a href="/"> Nephrolith</a>
-          <a href="/"> Pulmonary</a>
-          
+            <a href="/"> Neurology</a>
+            <a href="/"> Thaumatology</a>
+            <a href="/"> Gynecology</a>
+            <a href="/"> Nephrolith</a>
+            <a href="/"> Pulmonary</a>
           </div>
         </div>
         {/* <div>
@@ -77,6 +78,7 @@ const Footer = () => {
         </div>
       </section>
       <div className="footer-text text-white p-4 pe-5 align-items-center  justify-content-between fw-light">
+        <span> Developed By Muhammad Nurul Ahsan</span> <br />
         <span>Terms and Conditions | Privacy Policy</span>
         <div>
           <span>© 2021 Apollo Health Care . All rights reserved.</span>

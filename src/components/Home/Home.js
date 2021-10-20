@@ -4,10 +4,10 @@ import img01 from "../../img/01.jpg";
 import img02 from "../../img/02.jpg";
 import img03 from "../../img/03.jpg";
 
-import client1 from "../../img/client-1.webp"
-import client2 from "../../img/client-2.webp"
-import client3 from "../../img/client-3.webp"
-import client4 from "../../img/client-4.webp"
+import client1 from "../../img/client-1.webp";
+import client2 from "../../img/client-2.webp";
+import client3 from "../../img/client-3.webp";
+import client4 from "../../img/client-4.webp";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -245,7 +245,10 @@ const Home = () => {
             for hospitalized patients or others in <br /> need of some form of
             health care.
           </h3>
-          <button type="button"className="btn btn-outline-dark py-3 px-4 m-3 me-5">
+          <button
+            type="button"
+            className="btn btn-outline-dark py-3 px-4 m-3 me-5"
+          >
             View More
           </button>
         </div>
@@ -341,14 +344,14 @@ const Home = () => {
         </div>
       </div>
       <div className="container pb-5 mb-4  text-start">
-          <h1>Our Happy Clients</h1>
-          <hr />
-          <div className="d-flex pt-5">
+        <h1>Our Happy Clients</h1>
+        <hr />
+        <div className="d-flex pt-5">
           <img width="300px" height="150px" src={client1} alt="" />
           <img width="320px" height="150px" src={client2} alt="" />
           <img width="350px" height="150px" src={client3} alt="" />
           <img width="350px" height="150px" src={client4} alt="" />
-          </div>
+        </div>
       </div>
     </div>
   );
