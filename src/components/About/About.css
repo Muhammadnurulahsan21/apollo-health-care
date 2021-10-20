@@ -1,0 +1,19 @@
+.bg-about {
+  background-image: url(./../../img/bg-about.jpg);
+  background-repeat: no-repeat;
+  background-position: "center";
+  background-size: "cover";
+  min-height: 380px;
+}
+.frist-div{
+    width: 82%;
+}
+.second-div{
+    width: 40%
+}
+
+
+.bg-about-second {
+  background-image: url(./../../img/bg.webp);
+  height: 200px;
+}
