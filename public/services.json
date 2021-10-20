@@ -4,7 +4,7 @@
     "serviceName": "Neurology",
     "medicalFee": "BDT 5000/=",
     "testFee": "BDT 2200/=",
-    "description": "This type of doctor treats health problems related the brain and the nerves. You may need this medical lifelong neurological disorder or have recently developed symptoms related to your nerves or the muscles.",
+    "description": "This type of doctor treats health problems related the brain the nerves. may needmedical lifelong lifelong neurological disorder or have recently developed and the symptoms related to your nerves muscles.",
     "img": "https://medi-cal-img.netlify.app/img/01.png"
   },
   {
@@ -12,7 +12,7 @@
     "serviceName": "Traumotology",
     "medicalFee": "BDT 3500/=",
     "testFee": "BDT 1400/=",
-    "description": "Traumatology is the practice of diagnosing treating  diseases of the Locomotor Apparatus produced by a traumatic agent Orthopedic Surgery treats problems of progressive evolution in the musculoskeletal system.",
+    "description": "Traumatology is practice of treating  diseases of the Locomotor Apparatus produced by a traumatic agent Orthopedic Surgery treats problems of progressive evolution in the musculoskeletal system.",
     "img": "https://medi-cal-img.netlify.app/img/02.png"
   },
   {
@@ -20,7 +20,7 @@
     "serviceName": "Nephrology",
     "medicalFee": "BDT 4200/=",
     "testFee": "BDT 1000/=",
-    "description": "The division of nephrology is currently providing multiple therapies by which the blood of the patient is being treated filter the blood from the harmful materials that are associated with the child’s disease.",
+    "description": "The division of nephrology is currently providing multiple therapies by which the blood of the patient is being treated filter the blood from the materials that are associated with the child’s disease.",
     "img": "https://medi-cal-img.netlify.app/img/03.png"
   },
   {
@@ -28,7 +28,7 @@
     "serviceName": "Cardiology",
     "medicalFee": "BDT 3500/=",
     "testFee": "BDT 700/=",
-    "description": "Cardiology is the medical science that is regarding the treatment and diagnosis of any disorders and diseases related to human heart. Our cardiologists have undertake the most feasible course regarding surgery.",
+    "description": "Cardiology is the medical science that is regarding the treatment and diagnosis of any disorders and diseases human heart. Our cardiologists undertake the most feasible course regarding surgery.",
     "img": "https://medi-cal-img.netlify.app/img/04.png"
   },
   {
@@ -36,15 +36,15 @@
     "serviceName": "Pulmonary",
     "medicalFee": "BDT 8500/=",
     "testFee": "BDT 2500/=",
-    "description": "Pulmonary critical care, or critical care medicine, is a specialized field of emergency medicine that focuses of the respiratory or pulmonary system, which includes the lungs, trachea, or diaphragm, structures.",
+    "description": "Pulmonary critical care, or critical care medicine, is a specialized field of emergency medicine that focuses of the respiratory or pulmonary system, which the lungs, trachea, or diaphragm, structures.",
     "img": "https://medi-cal-img.netlify.app/img/05.png"
   },
   {
     "id": "06",
     "serviceName": "Births",
-    "medicalFee": "BDT  650/=0/=",
+    "medicalFee": "BDT 6500/=",
     "testFee": "BDT 2100/=",
-    "description": "Birth centers provide a homey birth setting for the mother, baby, and extended family. In most cases, they're freestanding your baby changes buildings, though some attached.care of a your baby during pregnancy.",
+    "description": "Birth centers provide a homey birth setting for the mother, baby, and extended family. In most cases, your baby changes buildings, though attached.care of a your baby during pregnancy.",
     "img": "https://medi-cal-img.netlify.app/img/06.png"
   },
     {

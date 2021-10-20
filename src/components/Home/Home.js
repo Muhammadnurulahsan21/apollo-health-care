@@ -11,7 +11,7 @@ import img1 from "../../img/icon-img-1.webp";
 import img2 from "../../img/icon-img-2.webp";
 import img3 from "../../img/icon-img-3.webp";
 import img4 from "../../img/icon-img-4.webp";
-import { Carousel, } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 
 import dep1 from "../../img/01.webp";
 import dep2 from "../../img/02.png";
@@ -25,9 +25,6 @@ import dep9 from "../../img/09.webp";
 import dep10 from "../../img/10.png";
 import dep11 from "../../img/11.png";
 import dep12 from "../../img/12.png";
-
-import bed01 from "../../img/Patient_bed 01.png";
-import bed02 from "../../img/Patient_bed 02.png";
 
 import doc01 from "../../img/doc1.jpg";
 import doc02 from "../../img/doc2.jpg";
@@ -236,48 +233,16 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className="mb-5 my-5">
-          <Carousel fade>
-            <Carousel.Item>
-              <img className="d-block w-100" src={bed01} alt="First slide" />
-              <Carousel.Caption className="mb-5 pb-5 pe-5 mb-5 fs-2 text-start">
-                <h1 className="text-dark fw-normal">
-                  Our Hospital Special Bed
-                </h1>
-                <h3 className="text-dark fw-light ">
-                  A hospital bed or hospital cot is a bed specially <br />{" "}
-                  designed for hospitalized patients or others in <br /> need of
-                  some form of health care.
-                </h3>
-                <button
-                  type="button"
-                  className="btn btn-outline-dark py-3 px-4 m-3 me-5"
-                >
-                  View More
-                </button>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" src={bed02} alt="Second slide" />
-
-              <Carousel.Caption className="mb-5 pb-5 pe-5 mb-5 fs-2 text-start">
-                <h1 className="text-dark fw-normal">
-                  Our Hospital Special Bed
-                </h1>
-                <h3 className="text-dark fw-light ">
-                  A hospital bed or hospital cot is a bed specially <br />{" "}
-                  designed for hospitalized patients or others in <br /> need of
-                  some form of health care.
-                </h3>
-                <button
-                  type="button"
-                  className="btn btn-outline-dark py-3 px-4 m-3 me-5"
-                >
-                  View More
-                </button>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+        <div className="mb-5 second-bg-img my-5 text-start">
+          <h1 className="text-dark fw-normal">Our Hospital Special Bed</h1>
+          <h3 className="text-dark fw-light ">
+            A hospital bed or hospital cot is a bed specially <br /> designed
+            for hospitalized patients or others in <br /> need of some form of
+            health care.
+          </h3>
+          <button type="button"className="btn btn-outline-dark py-3 px-4 m-3 me-5">
+            View More
+          </button>
         </div>
       </div>
       <div>
@@ -360,12 +325,15 @@ const Home = () => {
         <h1>Our Popular Services</h1>
         <hr />
         <div className="container mb-5 mt-5">
-        <div className="row row-cols-1 row-cols-md-3 g-4">
-          {homeServicesCards.map((homeServiceCard) => (
-            <HomeServicesCard key={homeServiceCard.id} homeServiceCard={homeServiceCard}></HomeServicesCard>
-          ))}
+          <div className="row row-cols-1 row-cols-md-3 g-1">
+            {homeServicesCards.map((homeServiceCard) => (
+              <HomeServicesCard
+                key={homeServiceCard.id}
+                homeServiceCard={homeServiceCard}
+              ></HomeServicesCard>
+            ))}
+          </div>
         </div>
-      </div>  
       </div>
     </div>
   );

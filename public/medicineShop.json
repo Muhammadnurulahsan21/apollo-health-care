@@ -5,7 +5,7 @@
       "catagory": "Tablet",
       "Generics": "Esomeprazole 20mg",
       "companyName": "Healthcare Pharmaceuticals Ltd.",
-      "price": "৳7",
+      "price": "BDT 7/= ",
       "img": "https://medicine-img-care.netlify.app/img/01.png"
     },
     {
@@ -14,25 +14,25 @@
       "catagory": "Tablet",
       "Generics": "Azithromycin 500mg",
       "companyName": "Sandoz Bangladesh Limited.",
-      "price": "৳52",
+      "price": "BDT 52/= ",
       "img": "https://medicine-img-care.netlify.app/img/02.png"
     },
     {
       "id": "03",
       "medicineName": "Moxaclav 625",
       "catagory": "Tablet",
-      "Generics": "Amoxicillin 500mgClavulanic Acid 125mg",
+      "Generics": "Amoxicillin 625mg",
       "companyName": "Square Pharmaceuticals Limited",
-      "price": "৳30",
+      "price": "BDT 30/= ",
       "img": "https://medicine-img-care.netlify.app/img/03.png"
     },
     {
       "id": "04",
       "medicineName": "Napa Extra",
       "catagory": "Tablet",
-      "Generics": "Paracetamol 500mgCaffeine 65mg",
+      "Generics": "Paracetamol 500mg",
       "companyName": "Beximco Pharmaceuticals Ltd.",
-      "price": "৳2",
+      "price": "BDT 2/= ",
       "img": "https://medicine-img-care.netlify.app/img/04.png"
     },
     {
@@ -41,7 +41,7 @@
       "catagory": "Tablet",
       "Generics": "Paracetamol 500mg",
       "companyName": "Square Pharmaceuticals Limited",
-      "price": "৳1",
+      "price": "BDT 1/= ",
       "img": "https://medicine-img-care.netlify.app/img/05.png"
     },
     {
@@ -50,7 +50,7 @@
       "catagory": "Tablet",
       "Generics": "Vildagliptin 50mg",
       "companyName": "Novartis(Bangladesh) Limited",
-      "price": "৳30",
+      "price": "BDT 30/= ",
       "img": "https://medicine-img-care.netlify.app/img/06.png"
     },
     {
@@ -59,7 +59,7 @@
       "catagory": "Tablet",
       "Generics": "Vildagliptin 50mg",
       "companyName": "Healthcare Pharmaceuticals Ltd.",
-      "price": "৳17",
+      "price": "BDT 17/= ",
       "img": "https://medicine-img-care.netlify.app/img/07.png"
     },
     {
@@ -68,7 +68,7 @@
       "catagory": "Tablet",
       "Generics": "Metformin Hydrochloride 500mg",
       "companyName": "Square Pharmaceuticals Limited",
-      "price": "৳3",
+      "price": "BDT 3/= ",
       "img": "https://medicine-img-care.netlify.app/img/08.png"
     },
     {
@@ -77,7 +77,7 @@
       "catagory": "Tablet",
       "Generics": "Esomeprazole 20mg",
       "companyName": "Healthcare Pharmaceuticals Ltd.",
-      "price": "৳7",
+      "price": "BDT 7/= ",
       "img": "https://medicine-img-care.netlify.app/img/09.png"
     },
     {
@@ -86,7 +86,7 @@
         "catagory": "Tablet",
         "Generics": "Gliclazide 60mg",
         "companyName": "Square Pharmaceuticals Limited",
-        "price": "৳10",
+        "price": "BDT 10/= ",
         "img": "https://medicine-img-care.netlify.app/img/10.png"
     },
     {
@@ -95,7 +95,7 @@
       "catagory": "Tablet",
       "Generics": "Gliclazide 80mg",
       "companyName": "Square Pharmaceuticals Limited",
-      "price": "৳13",
+      "price": "BDT 13/= ",
       "img": "https://medicine-img-care.netlify.app/img/11.png"
     },
     {
@@ -104,7 +104,7 @@
       "catagory": "Tablet",
       "Generics": "Gliclazide 80mg",
       "companyName": "Square Pharmaceuticals Limited.",
-      "price": "৳5",
+      "price": "BDT 5/= ",
       "img": "https://medicine-img-care.netlify.app/img/12.png"
     }
    

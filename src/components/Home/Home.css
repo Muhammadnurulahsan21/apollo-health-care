@@ -6,15 +6,22 @@
 }
 
 .bg-img {
-    background: url(./../../img/bg01.jpg);
-    background-repeat: "no-repeat";
-    background-position: "center center";
-    background-size: "cover";
-    width: 100%;
-    height: 600px;
-    padding-top: 120px;
-    padding-left: 100px;
+  background: url(./../../img/bg01.jpg);
+  background-repeat: "no-repeat";
+  background-position: "center center";
+  background-size: "cover";
+  width: 100%;
+  height: 600px;
+  padding-top: 120px;
+  padding-left: 100px;
 }
-
-
-
+.second-bg-img {
+  background: url(./../../img/Patient_bed.png);
+  background-repeat: "no-repeat";
+  background-position: "center center";
+  background-size: "cover";
+  width: 100%;
+  height: 600px;
+  padding-top: 170px;
+  padding-left: 100px;
+}

@@ -1,22 +1,25 @@
-import React from "react";
-import { Card } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
+import MedicineShopCard from "./../MedicineShopCard/MedicineShopCard";
 
 const MedicineShop = () => {
+  const [medicinesShop, setMedicineShop] = useState([]);
+  useEffect(() => {
+    fetch("/medicineShop.json")
+      .then((res) => res.json())
+      .then((data) => setMedicineShop(data));
+  }, []);
   return (
     <div>
-      <div className="container py-5 mb-4 mt-5 text-start">
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="secondary">Make an Appointment</Button>
-        </Card.Body>
-      </Card>
+      <div className="container mb-5 mt-5">
+        <div className="row row-cols-1 row-cols-md-3 g-1">
+          {medicinesShop.map((medicinesShop) => (
+            <MedicineShopCard
+              key={medicinesShop.id}
+              medicinesShop={medicinesShop}
+            ></MedicineShopCard>
+          ))}
+        </div>
       </div>
     </div>
   );
