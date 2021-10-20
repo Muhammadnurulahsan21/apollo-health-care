@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./MedicineShop.css"
-import { Button } from "react-bootstrap";
 import MedicineShopCard from "./../MedicineShopCard/MedicineShopCard";
 
 const MedicineShop = () => {

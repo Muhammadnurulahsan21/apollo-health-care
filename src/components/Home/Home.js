@@ -97,7 +97,7 @@ const Home = () => {
           <div className="ps-4">
             <img src={img1} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Experienced Physicians</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               Your health is your most important asset. You should entrust it
               only to the best professionals.
             </h6>
@@ -105,7 +105,7 @@ const Home = () => {
           <div className="ps-4">
             <img src={img2} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Personalized Treatment</h5>
-            <h6 class="fw-light pe-4">
+            <h6 className="fw-light pe-4">
               Treatment choices perfectly match your goals of treatment
               complications with early intervention.
             </h6>
@@ -113,7 +113,7 @@ const Home = () => {
           <div className="ps-4">
             <img src={img3} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Quality and Safety</h5>
-            <h6 class="fw-light pe-4">
+            <h6 className="fw-light pe-4">
               All team members at Medical Center have been trained thoroughly to
               assist in any situation.
             </h6>
@@ -121,7 +121,7 @@ const Home = () => {
           <div className="ps-4">
             <img src={img4} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Immediate Service</h5>
-            <h6 class="fw-light ">
+            <h6 className="fw-light ">
               Your treatment plan is designed for steady progress, with every
               phase promptly implemented.
             </h6>
@@ -156,42 +156,42 @@ const Home = () => {
           <div className="ps-4">
             <img src={dep1} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Neurology</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               Treatment perfectly is match your goals.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep2} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Traumotology</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               The branch of surgery that injured patients.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep3} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Nephrology</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               Nephrology is a specialty of adult internal medicine.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep4} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Cardiology</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               Cardiology is a branch of that the disorders.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep5} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Pulmonary</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               Pulmonary hypertension high pressure the blood.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep6} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Births</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               An Act to provide for voluntary Registration.
             </h6>
           </div>
@@ -200,38 +200,38 @@ const Home = () => {
           <div className="ps-4">
             <img src={dep7} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Gynaecology</h5>
-            <h6 class="fw-light pe-3">Gynaecology the with medical health.</h6>
+            <h6 className="fw-light pe-3">Gynaecology the with medical health.</h6>
           </div>
           <div className="ps-4">
             <img src={dep8} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Dental</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               The field of dentistry dental medicine teeth.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep9} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">X-ray</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               Most X-rays have a wavelength from 10.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep10} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Pregnancy</h5>
-            <h6 class="fw-light pe-3">Pregnancy, also is the time during.</h6>
+            <h6 className="fw-light pe-3">Pregnancy, also is the time during.</h6>
           </div>
           <div className="ps-4">
             <img src={dep11} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">For disabled</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               People with disabilities are, first and foremost, people.
             </h6>
           </div>
           <div className="ps-4">
             <img src={dep12} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">NMR</h5>
-            <h6 class="fw-light pe-3">
+            <h6 className="fw-light pe-3">
               NMR an abbreviation Nuclear Resonance.
             </h6>
           </div>
@@ -263,7 +263,7 @@ const Home = () => {
               <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
                 CONSULTING DOCTOR
               </h6>
-              <h6 class="fw-bold pe-3">Dr. Sarah Johnson</h6>
+              <h6 className="fw-bold pe-3">Dr. Sarah Johnson</h6>
               <span className="text-secondary">
                 {" "}
                 <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 852 45 64
@@ -280,7 +280,7 @@ const Home = () => {
               <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
                 DENTAL HYGIENIST
               </h6>
-              <h6 class="fw-bold pe-3">Dr. Greg House</h6>
+              <h6 className="fw-bold pe-3">Dr. Greg House</h6>
               <span className="text-secondary">
                 {" "}
                 <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 741 45 57
@@ -297,7 +297,7 @@ const Home = () => {
               <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
                 PEDIATRICIAN
               </h6>
-              <h6 class="fw-bold pe-3">Dr. Marta Stewart</h6>
+              <h6 className="fw-bold pe-3">Dr. Marta Stewart</h6>
               <span className="text-secondary">
                 {" "}
                 <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 963 45 67
@@ -314,7 +314,7 @@ const Home = () => {
               <h6 className="pb-2 pt-2 pe-2 fw-normal text-secondary">
                 CARDIAC SURGEON
               </h6>
-              <h6 class="fw-bold pe-3">Dr. Night Shyamalan</h6>
+              <h6 className="fw-bold pe-3">Dr. Night Shyamalan</h6>
               <span className="text-secondary">
                 {" "}
                 <FontAwesomeIcon icon={faPhoneAlt} size="lg" /> +800 258 45 65
