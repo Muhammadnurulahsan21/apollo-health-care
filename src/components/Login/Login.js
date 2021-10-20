@@ -1,123 +1,124 @@
 import React from "react";
-import { Col, Form, FormControl, InputGroup, Row, NavLink } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
-import facebook from "../../img/facebook.png";
-import google from "../../img/google.png";
-import github from "../../img/github.png";
-// import { NavLink, useLocation, useHistory } from "react-router-dom";
-// import useAuth from "../../hooks/useAuth.js";
+import "./Login.css";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import loginUser from "./../../img/loginuser.png";
+import loginImg from "./../../img/login.jpg";
+
+import gImg from "./../../img/google.png";
+import fbImg from "./../../img/github.png";
+import gitImg from "./../../img/facebook.png";
 
 const Login = () => {
-//   const { contexts } = useAuth();
-//   const {
-//     signInWithEmail,
-//     signInWithGoogle,
-//     signInWithFacebook,
-//     signInWithGithub,
-//     getPassword,
-//     getEmail,
-//     setError,
-//     setUser,
-//     error,
-//     setLoading,
-//   } = contexts;
-//   const location = useLocation();
-//   const history = useHistory();
-//   const redirect = location.state?.from || "/courses";
   return (
-    <div className="text-center my-4">
-      <h2>Please Login</h2>
-      <p className=" mt-2">Login with Email & Password</p>
-      <p className="text-danger text-center">
-          {/* {error} */}
-          </p>
-      <div className="w-25 mx-auto">
-        <Form 
-        // onSubmit={signInWithEmail}
-        >
-          <Row>
-            <Col className="text-start">
-              <Form.Label htmlFor="email" visuallyHidden>
-                Your Email Address
-              </Form.Label>
-              <InputGroup className="mb-2">
-                <InputGroup.Text>
-                  <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-                </InputGroup.Text>
-                <FormControl
-                //   onClick={getEmail}
-                  type="email"
-                  autoComplete="current-email"
-                  id="email"
-                  placeholder="Enter your email address"
-                />
-              </InputGroup>
-            </Col>
-          </Row>
-          <Row className="mt-2">
-            <Col className="text-start">
-              <Form.Label htmlFor="password" visuallyHidden>
-                Your Password
-              </Form.Label>
-              <InputGroup className="mb-2">
-                <InputGroup.Text>
-                  <FontAwesomeIcon icon={faLock}></FontAwesomeIcon>
-                </InputGroup.Text>
-                <FormControl
-                //   onClick={getPassword}
-                  type="password"
-                  autoComplete="current-password"
-                  id="password"
-                  placeholder="Enter your password"
-                />
-              </InputGroup>
-            </Col>
-          </Row>
-
-          <button type="submit" className="btn btn-primary mt-2 w-100">
-            Login
-          </button>
-        </Form>
-      </div>
-      <p className="mt-2">
-        <NavLink className="text-decoration-none" to="/signup">
-          Need an Account? Please Sign up!
-        </NavLink>
-      </p>
-      <p className="mt-3">Or</p>
-      <p> Login with</p>
+    <div className="custom-margin pt-3 d-flex justify-content-center">
       <div>
-        <button
-        //   onClick={() => {
-        //     signInWithGoogle()
-        //       .then((result) => {
-        //         const user = result.user;
-        //         setUser(user);
-        //         history.push(redirect);
-        //       })
-        //       .catch((err) => {
-        //         const errorMessage = err.message;
-        //         setError(errorMessage);
-        //       });
-        //   }}
-          className="btn"
-        >
-          <img src={google} width="46px" alt="google-icon" />
-        </button>
-        <button 
-        // onClick={signInWithFacebook}
-         className="btn">
-          <img width="50px" src={facebook} alt="facebook-icon" />
-        </button>
-        <button className="btn">
-          <img
-            // onClick={signInWithGithub}
-            width="55px"
-            src={github}
-            alt="github-icon"
-          />
-        </button>
+        <Container className="mt-3">
+          <Row>
+            <Col className=" ms-5" lg={4} md={6} sm={12}>
+              <div className="text-center pb-2">
+                <img height="100px" width="150px" src={loginUser} alt="" />
+              </div>
+              <Form>
+                <Form.Group
+                  className="mb-2 text-start"
+                  controlId="formBasicEmail"
+                >
+                  <Form.Label>Email Address</Form.Label>
+                  <Form.Control type="email" placeholder="Enter Your Email Address" />
+                  <Form.Text className="text-muted">
+                    We'll never share your email with anyone else.
+                  </Form.Text>
+                </Form.Group>
+
+                <Form.Group
+                  className="mb-2 text-start"
+                  controlId="formBasicPassword"
+                >
+                  <Form.Label>Password</Form.Label>
+                  <Form.Control type="password" placeholder="Enter Your Password" />
+                </Form.Group>
+                <div className="d-flex justify-content-between">
+                  <div>
+                    <Form.Group className="" controlId="formBasicCheckbox">
+                      <Form.Check type="checkbox" label="Remember Me" />
+                    </Form.Group>
+                  </div>
+                  <div className=" text-dark">
+                    <Link>Need an Account?</Link> <br />
+                    <Link>Please Sign up!</Link>
+                  </div>
+                </div>
+
+                <Button className="btn btn-secondary py-2 px-5 mb-3 mt-3 mt-2">
+                  Login
+                </Button>
+                <br />
+
+                <div className=" tex-center mb-0">
+                  <p>OR Login With</p>
+                </div>
+
+                <div className="">
+                  <button
+                    // onClick={() => {
+                    //   signInWithGoogle()
+                    //     .then((result) => {
+                    //       setUser(result.user);
+                    //       history.push(redirect);
+                    //     })
+                    //     .catch((err) => {
+                    //       setError(err.message);
+                    //     });
+                    // }}
+                    className="btn"
+                  >
+                    <img src={gImg} width="46px" alt="google-icon" />
+                  </button>
+                  <button
+                    // onClick={() => {
+                    //   signInWithFacebook()
+                    //     .then((result) => {
+                    //       setUser(result.user);
+                    //       history.push(redirect);
+                    //     })
+                    //     .catch((err) => {
+                    //       setError(err.message);
+                    //     });
+                    // }}
+                    className="btn"
+                  >
+                    <img width="50px" src={fbImg} alt="facebook-icon" />
+                  </button>
+                  <button
+                    // onClick={() => {
+                    //   signInWithGithub()
+                    //     .then((result) => {
+                    //       setUser(result.user);
+                    //       history.push(redirect);
+                    //     })
+                    //     .catch((err) => {
+                    //       setError(err.message);
+                    //     });
+                    // }}
+                    className="btn"
+                  >
+                    <img width="55px" src={gitImg} alt="github-icon" />
+                  </button>
+                </div>
+              </Form>
+            </Col>
+            <Col lg={4} md={6} sm={12}>
+              <img
+                className="ms-5 ps-5"
+                height="550px"
+                width="650px"
+                src={loginImg}
+                alt=""
+              />
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

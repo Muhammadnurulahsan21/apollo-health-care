@@ -2,15 +2,15 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Doctors from "./Components/Doctors/Doctors";
-import Login from "./Components/Login/Login";
 import NotFound from "./Components/NotFound/NotFound";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import Register from "./Components/Register/Register";
 import MedicineShop from './Components/MedicineShop/MedicineShop';
 import About from './Components/About/About';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Services from "./Components/Services/Services";
+import Login from "./Components/Login/Login";
+import Register from "./Components/Register/Register";
 
 function App() {
   return (
