@@ -1,6 +1,6 @@
 [
   {
-    "id": "01",
+    "key": "01",
     "serviceName": "Neurology",
     "medicalFee": "BDT 5000/=",
     "testFee": "BDT 2200/=",
@@ -8,7 +8,7 @@
     "img": "https://medi-cal-img.netlify.app/img/01.png"
   },
   {
-    "id": "02",
+    "key": "02",
     "serviceName": "Traumotology",
     "medicalFee": "BDT 3500/=",
     "testFee": "BDT 1400/=",
@@ -16,7 +16,7 @@
     "img": "https://medi-cal-img.netlify.app/img/02.png"
   },
   {
-    "id": "03",
+    "key": "03",
     "serviceName": "Nephrology",
     "medicalFee": "BDT 4200/=",
     "testFee": "BDT 1000/=",
@@ -24,7 +24,7 @@
     "img": "https://medi-cal-img.netlify.app/img/03.png"
   },
   {
-    "id": "04",
+    "key": "04",
     "serviceName": "Cardiology",
     "medicalFee": "BDT 3500/=",
     "testFee": "BDT 700/=",
@@ -32,7 +32,7 @@
     "img": "https://medi-cal-img.netlify.app/img/04.png"
   },
   {
-    "id": "05",
+    "key": "05",
     "serviceName": "Pulmonary",
     "medicalFee": "BDT 8500/=",
     "testFee": "BDT 2500/=",
@@ -40,7 +40,7 @@
     "img": "https://medi-cal-img.netlify.app/img/05.png"
   },
   {
-    "id": "06",
+    "key": "06",
     "serviceName": "Births",
     "medicalFee": "BDT 6500/=",
     "testFee": "BDT 2100/=",
@@ -48,7 +48,7 @@
     "img": "https://medi-cal-img.netlify.app/img/06.png"
   },
     {
-      "id": "07",
+      "key": "07",
       "serviceName": "Gynaecology",
       "medicalFee": "BDT 5200/=",
       "testFee": "BDT 800/=",
@@ -56,7 +56,7 @@
       "img": "https://medi-cal-img.netlify.app/img/07.png"
     },
     {
-      "id": "08",
+      "key": "08",
       "serviceName": "Dental",
       "medicalFee": "BDT 2500/=",
       "testFee": "BDT 400/=",
@@ -64,7 +64,7 @@
       "img": "https://medi-cal-img.netlify.app/img/08.png"
     },
     {
-      "id": "09",
+      "key": "09",
       "serviceName": "X-ray",
       "medicalFee": "BDT 1500/=",
       "testFee": "BDT 500/=",
@@ -72,7 +72,7 @@
       "img": "https://medi-cal-img.netlify.app/img/09.png"
     },
     {
-      "id": "10",
+      "key": "10",
       "serviceName": "Pregnancy",
       "medicalFee": "BDT 10000/=",
       "testFee": "BDT 5200/=",
@@ -80,7 +80,7 @@
       "img": "https://medi-cal-img.netlify.app/img/10.png"
     },
     {
-      "id": "11",
+      "key": "11",
       "serviceName": "For disabled",
       "medicalFee": "BDT 8500/=",
       "testFee": "BDT 4200/=",
@@ -88,7 +88,7 @@
       "img": "https://medi-cal-img.netlify.app/img/02.png"
     },
     {
-      "id": "12",
+      "key": "12",
       "serviceName": "NMR",
       "medicalFee": "BDT 7500/=",
       "testFee": "BDT 3200/=",

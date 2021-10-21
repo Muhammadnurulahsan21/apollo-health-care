@@ -1,15 +1,13 @@
 import React from "react";
 import "./Register.css";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import loginUser from "./../../img/loginuser.png";
 import RegisterImg from "./../../img/register2.jpg";
-
-import gImg from "./../../img/google.png";
-import fbImg from "./../../img/github.png";
-import gitImg from "./../../img/facebook.png";
+import useAuth from "./../../Hooks/UseAuth.js";
+import { Link } from "react-router-dom";
 
 const Register = () => {
+  const { singUp, getEmail, getName, getPassword, error } = useAuth();
   return (
     <div className="custom-margin pt-3 d-flex justify-content-center">
       <div>
@@ -19,14 +17,16 @@ const Register = () => {
               <div className="text-center pb-2">
                 <img height="100px" width="150px" src={loginUser} alt="" />
               </div>
-              <Form>
+              <Form onSubmit={singUp}>
                 <Form.Group
                   className="mb-2 text-start"
                   controlId="formBasicEmail"
                 >
                   <Form.Label>Name</Form.Label>
                   <Form.Control
-                    type="email"
+                    required
+                    onBlur={getName}
+                    type="type"
                     placeholder="Enter Your Full Name"
                   />
                   <Form.Text className="text-muted">
@@ -37,8 +37,10 @@ const Register = () => {
                   className="mb-2 text-start"
                   controlId="formBasicEmail"
                 >
-                  <Form.Label>Email Address</Form.Label>
+                  <Form.Label htmlFor="email">Email Address</Form.Label>
                   <Form.Control
+                    required
+                    onBlur={getEmail}
                     type="email"
                     placeholder="Enter Your Email Address"
                   />
@@ -48,21 +50,34 @@ const Register = () => {
                   controlId="formBasicPassword"
                 >
                   <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Enter Your Password" />
+                  <Form.Control
+                    required
+                    onBlur={getPassword}
+                    type="password"
+                    placeholder="Enter Your Password"
+                  />
                 </Form.Group>
                 <div className="d-flex justify-content-between">
-                  <div>
-                    <Form.Group className="" controlId="formBasicCheckbox">
-                      <Form.Check type="checkbox" label="Remember Me" />
-                    </Form.Group>
+                  <div className="form-check">
+                    <input
+                      // onChange={toggleLogin}
+                      className="form-check-input"
+                      type="checkbox"
+                      id="gridCheck"
+                    />
+                    <label className="form-check-label" htmlFor="gridCheck">
+                    </label>
+                    <Link to="/login">
+                    Already have an account? Please login!
+                    </Link>
                   </div>
-                  <div className=" text-dark"> 
-                    <Link>Already have an account?</Link> <br />
-                    <Link>Please login!</Link>
-                  </div>
+                  <div className=" text-dark"></div>
                 </div>
-
-                <Button className="btn btn-secondary py-2 px-5 mb-3 mt-3 mt-2">
+                <p className="text-danger text-center">{error}</p>
+                <Button
+                  type="submit"
+                  className="btn btn-secondary py-2 px-5 mb-3 mt-3 mt-2"
+                >
                   Register
                 </Button>
               </Form>

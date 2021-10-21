@@ -1,9 +1,9 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import "./HomeServicesCard.css";
 
 const HomeServicesCard = (props) => {
-  const { serviceName, medicalFee, testFee, description, img } =
+  const { serviceName, medicalFee, testFee, description, img, key } =
     props.homeServiceCard || {};
 
   return (
@@ -15,7 +15,7 @@ const HomeServicesCard = (props) => {
           <p className="card-text mb-2 "><span  className="fw-bold">Full Service Fee:</span> {medicalFee}</p>
           <p className="card-text mb-2 "><span  className="fw-bold">Medical Test Fee:</span> {testFee}</p>
           <p className="card-text"><span className="fw-bold">Description: </span>{description}</p>
-          <Button variant="secondary">Make an Appointment</Button>
+          <NavLink to={`/services/${key}`} className="btn btn-secondary">Make an Appointment</NavLink>
         </div>
       </div>
     </div>

@@ -7,8 +7,8 @@ export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   // const {children} = props;
-  const allCOntexts = useFireBase();
-  return <AuthContext.Provider value={allCOntexts}>
+  const allContexts = useFireBase();
+  return <AuthContext.Provider value={allContexts}>
       {children}
       </AuthContext.Provider>;
 };

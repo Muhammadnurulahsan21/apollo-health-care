@@ -1,6 +1,6 @@
 [
     {
-      "id": "01",
+      "key": "01",
       "doctorName": "Dr. Sarah Johnson",
       "dOfMedical": "Consulting Doctor",
       "phone":  "+800 852 45 64",
@@ -8,7 +8,7 @@
       "img": "https://doctor-img-12.netlify.app/img/01.png"
     },
     {
-      "id": "02",
+      "key": "02",
       "doctorName": "Dr. Greg House",
       "dOfMedical": "Dental Hygienist",
       "phone": "+800 741 45 57",
@@ -16,7 +16,7 @@
       "img": "https://doctor-img-12.netlify.app/img/02.png"
     },
     {
-      "id": "03",
+      "key": "03",
       "doctorName": "Dr. Marta Stewart",
       "dOfMedical": "Pediatrician",
       "phone": "+800 963 45 67",
@@ -24,7 +24,7 @@
       "img": "https://doctor-img-12.netlify.app/img/03.png"
     },
     {
-      "id": "04",
+      "key": "04",
       "doctorName": "Dr. Night Shyamalan",
       "dOfMedical": "Cardiac Surgeon",
       "phone": "+800 258 45 65",
@@ -32,7 +32,7 @@
       "img": "https://doctor-img-12.netlify.app/img/04.png"
     },
     {
-      "id": "05",
+      "key": "05",
       "doctorName": "Dr. Khalid Abbed",
       "dOfMedical": "Neurosurgery",
       "phone": "+800 852 45 69",
@@ -40,7 +40,7 @@
       "img": "https://doctor-img-12.netlify.app/img/05.png"
     },
     {
-      "id": "06",
+      "key": "06",
       "doctorName": "Dr. Naresh Trehan",
       "dOfMedical": "Anesthesiologist",
       "phone": "+800 452 45 68",
@@ -48,7 +48,7 @@
       "img": "https://doctor-img-12.netlify.app/img/06.png"
     },
     {
-      "id": "07",
+      "key": "07",
       "doctorName": "Dr. Corrie T.M Anderson",
       "dOfMedical": "Cardiovascular",
       "phone": "+800 753 45 84",
@@ -56,7 +56,7 @@
       "img": "https://doctor-img-12.netlify.app/img/07.png"
     },
     {
-      "id": "08",
+      "key": "08",
       "doctorName": "Dr. Mark. F. Aaron",
       "dOfMedical": "Adenoidectomy",
       "phone": "+800 951 45 66",
@@ -64,7 +64,7 @@
       "img": "https://doctor-img-12.netlify.app/img/08.png"
     },
     {
-      "id": "09",
+      "key": "09",
       "doctorName": "Antonia Novello",
       "dOfMedical": "X-ray",
       "phone": "+800 357 45 65",
@@ -72,7 +72,7 @@
       "img": "https://doctor-img-12.netlify.app/img/09.png"
     },
     {
-      "id": "10",
+      "key": "10",
       "doctorName": "Susan Flesche",
       "dOfMedical": "Pregnancy",
       "phone": "+800 159 45 63",
@@ -80,7 +80,7 @@
       "img": "https://doctor-img-12.netlify.app/img/10.png"
     },
     {
-      "id": "11",
+      "key": "11",
       "doctorName": "Gertrude Belle",
       "dOfMedical": "For disabled",
       "phone": "+800 654 45 62",
@@ -88,7 +88,7 @@
       "img": "https://doctor-img-12.netlify.app/img/11.png"
     },
     {
-      "id": "12",
+      "key": "12",
       "doctorName": "Margaret Chung",
       "dOfMedical": "NMR",
       "phone": "+800 558 45 61",

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import loginUser from "./../../img/loginuser.png";
 import loginImg from "./../../img/login.jpg";
 
@@ -38,7 +38,8 @@ const Login = () => {
                 <img height="100px" width="150px" src={loginUser} alt="" />
               </div>
               <Form
-                onSubmit={() => {
+                onSubmit={(e) => {
+                  e.preventDefault();
                   signInWithEmail()
                     .then((result) => {
                       setUser(result.user);
@@ -83,13 +84,17 @@ const Login = () => {
                       <Form.Check type="checkbox" label="Remember Me" />
                     </Form.Group>
                   </div>
-                  <div className=" text-dark">
-                    <Link>Need an Account?</Link> <br />
-                    <Link>Please Sign up!</Link>
+                  <div className="text-dark">
+                    <NavLink to="/register">
+                      Need an Account? <br /> Please Sign up!
+                    </NavLink>
                   </div>
                 </div>
                 <p className="text-danger text-center">{error}</p>
-                <Button className="btn btn-secondary py-2 px-5 mb-3 mt-3 mt-2">
+                <Button
+                  type="submit"
+                  className="btn btn-secondary py-2 px-5 mb-3 mt-3 mt-2"
+                >
                   Login
                 </Button>
                 <br />

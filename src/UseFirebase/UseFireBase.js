@@ -27,7 +27,6 @@ const useFirebase = () => {
   const [error, setError] = useState("");
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  const [photo, setPhoto] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(true);
 
@@ -53,15 +52,13 @@ const useFirebase = () => {
     return signInWithPopup(auth, fbProvider);
   }
   // Email sign in
-  function signInWithEmail(e) {
-    e.preventDefault();
+  function signInWithEmail() {
     return signInWithEmailAndPassword(auth, email, password);
   }
   // set name and profile image url
   function setNameAndImage() {
     updateProfile(auth.currentUser, {
       displayName: name,
-      photoURL: photo,
     })
       .then(() => {})
       .catch((error) => {
@@ -99,7 +96,6 @@ const useFirebase = () => {
       });
   }
 
-
   // sign up with email password
   function singUp(e) {
     e.preventDefault();
@@ -128,9 +124,6 @@ const useFirebase = () => {
     setPassword(e?.target?.value);
   }
   // Get photoUrl
-  function getPhoto(e) {
-    setPhoto(e?.target?.value);
-  }
 
   return {
     signInWithEmail,
@@ -145,7 +138,6 @@ const useFirebase = () => {
     getPassword,
     getEmail,
     singUp,
-    getPhoto,
     getName,
     loading,
   };

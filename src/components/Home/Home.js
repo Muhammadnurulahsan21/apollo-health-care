@@ -335,8 +335,7 @@ const Home = () => {
         <div className="container mb-5 mt-5">
           <div className="row row-cols-1 row-cols-md-3 g-1">
             {homeServicesCards.map((homeServiceCard) => (
-              <HomeServicesCard
-                key={homeServiceCard.id}
+              <HomeServicesCard key={homeServiceCard.key}
                 homeServiceCard={homeServiceCard}
               ></HomeServicesCard>
             ))}
