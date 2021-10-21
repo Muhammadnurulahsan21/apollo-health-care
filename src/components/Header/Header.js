@@ -18,11 +18,10 @@ import "./Header.css";
 import logo from "../../img/logo.png";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import useFirebase from "../../UseFirebase/UseFireBase";
+
 
 const Header = () => {
-  const { user } = useFirebase() || {};
-  console.log(user?.email);
+ 
   return (
     <div>
       <Navbar expand="lg" className="fixed-top nav-bar pt-5 mt-4">
@@ -91,19 +90,19 @@ const Header = () => {
               >
                 Contact Us
               </Nav.Link>
-              {user.email && (
+              
                 <Nav.Link
                   as={Link}
                   to="/contactus"
                   className="fs-5 ps-4 active text-success"
                 >
-                  {user.displayName}
+                 
                 </Nav.Link>
-              )}
+             
             </Nav>
           </Navbar.Collapse>
         </Container>
-        {!user.email && (
+        
           <Link to="/login">
             <button
               type="button"
@@ -112,8 +111,7 @@ const Header = () => {
               Login
             </button>
           </Link>
-        )}
-        {!user.email && (
+        
           <Link to="/register">
             <button
               type="button"
@@ -122,7 +120,7 @@ const Header = () => {
               Register
             </button>
           </Link>
-        )}
+       
       </Navbar>
       <div className="header-top-text d-flex fixed-top fw-light text-white px-5">
         <div>

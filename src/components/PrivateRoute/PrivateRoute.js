@@ -1,12 +1,41 @@
-import React from 'react';
-import './PrivateRoute.css'
+import { Spinner } from "react-bootstrap";
+import { Route, Redirect } from "react-router-dom";
+import useAuth from './../../Hooks/UseAuth.js';
 
-const PrivateRoute = () => {
+
+function PrivateRoute(props) {
+  const { children, ...rest } = props;
+
+  const { user, loading } = useAuth();
+
+
+  if (loading) {
     return (
-        <div>
-            <h2>This is PrivateRoute</h2>
-        </div>
+      <div className="text-center my-5 py-5">
+        <Spinner animation="border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
+      </div>
     );
-};
+  }
+
+  return (
+    <Route
+      {...rest}
+      render={({ location }) =>
+        user.displayName ? (
+          children
+        ) : (
+          <Redirect
+            to={{
+              pathname: "/login",
+              state: { from: location },
+            }}
+          />
+        )
+      }
+    />
+  );
+}
 
 export default PrivateRoute;
