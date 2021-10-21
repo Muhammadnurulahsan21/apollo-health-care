@@ -1,24 +1,17 @@
-.header-text{
-    padding-left: 30px;
+
+.custom-nav{
+    margin-left: 25px;
 }
-.logo-size{
-    margin-left: 20px;
+
+.custom-navlink{
+    text-decoration: none;
+    font-size: 21px;
 }
 .header-top-text{
     background-color: #88919c;
 }
-.header-top-text b{
-    margin-left: 320px;
-}
-.carousel-size{
-    margin-top: 60px;
-    margin-bottom: 120px;
-}
-div a{
-    text-decoration: none;
-}
-.nav-bar{
+
+.nav-color{
     background-color: #defff2;
-    height: 110px;
-    width: 100%;
+   
 }

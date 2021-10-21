@@ -7,7 +7,7 @@ import useAuth from "./../../Hooks/UseAuth.js";
 import { Link } from "react-router-dom";
 
 const Register = () => {
-  const { singUp, getEmail, getName, getPassword, error } = useAuth();
+  const { register, getEmail, getName, getPassword, error } = useAuth();
   return (
     <div className="custom-margin pt-3 d-flex justify-content-center">
       <div>
@@ -15,9 +15,9 @@ const Register = () => {
           <Row>
             <Col className=" ms-5" lg={4} md={6} sm={12}>
               <div className="text-center pb-2">
-                <img height="100px" width="150px" src={loginUser} alt="" />
+                <img height="100px" width="130px" src={loginUser} alt="" />
               </div>
-              <Form onSubmit={singUp}>
+              <Form onSubmit={register}>
                 <Form.Group
                   className="mb-2 text-start"
                   controlId="formBasicEmail"

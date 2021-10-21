@@ -16,7 +16,7 @@ const AppointmentPages = () => {
   return (
     <div>
       <div className="custom-margin">
-        <h2>{service?.serviceName}</h2>
+        <h2>{service?.name}</h2>
       </div>
     </div>
   );

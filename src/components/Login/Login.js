@@ -35,7 +35,7 @@ const Login = () => {
           <Row>
             <Col className=" ms-5" lg={4} md={6} sm={12}>
               <div className="text-center pb-2">
-                <img height="100px" width="150px" src={loginUser} alt="" />
+                <img height="100px" width="130px" src={loginUser} alt="" />
               </div>
               <Form
                 onSubmit={(e) => {

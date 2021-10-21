@@ -30,37 +30,35 @@ const useFirebase = () => {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // clear error
   useEffect(() => {
     setTimeout(() => {
       setError("");
     }, 5000);
   }, [error]);
 
-  // google sign in
   function signInWithGoogle() {
     return signInWithPopup(auth, googleProvider);
   }
 
-  // gitHub sign in
   function signInWithGithub() {
     return signInWithPopup(auth, gitHubProvider);
   }
 
-  // facebook sign in
   function signInWithFacebook() {
     return signInWithPopup(auth, fbProvider);
   }
-  // Email sign in
+
   function signInWithEmail() {
     return signInWithEmailAndPassword(auth, email, password);
   }
-  // set name and profile image url
+
   function setNameAndImage() {
     updateProfile(auth.currentUser, {
       displayName: name,
     })
-      .then(() => {})
+      .then(() => {
+        window.location.reload();
+      })
       .catch((error) => {
         setError(error.message);
       });
@@ -72,7 +70,6 @@ const useFirebase = () => {
     });
   }
 
-  // Get the currently signed-in user
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (signedInUser) => {
       if (signedInUser) {
@@ -85,7 +82,6 @@ const useFirebase = () => {
     return () => unsubscribe;
   }, []);
 
-  // sign out
   function logOut() {
     signOut(auth)
       .then((res) => {
@@ -96,8 +92,7 @@ const useFirebase = () => {
       });
   }
 
-  // sign up with email password
-  function singUp(e) {
+  function register(e) {
     e.preventDefault();
 
     createUserWithEmailAndPassword(auth, email, password)
@@ -110,20 +105,18 @@ const useFirebase = () => {
         setError(err.message);
       });
   }
-  // get name
+
   function getName(e) {
     setName(e?.target?.value);
   }
 
-  // get Email
   function getEmail(e) {
     setEmail(e?.target?.value);
   }
-  // Get password
+
   function getPassword(e) {
     setPassword(e?.target?.value);
   }
-  // Get photoUrl
 
   return {
     signInWithEmail,
@@ -137,7 +130,7 @@ const useFirebase = () => {
     setError,
     getPassword,
     getEmail,
-    singUp,
+    register,
     getName,
     loading,
   };
