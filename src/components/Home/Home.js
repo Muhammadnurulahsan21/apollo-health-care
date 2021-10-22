@@ -90,7 +90,22 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
 
-      <div className="container p-5 mb-3 text-start">
+      <div className="container pt-5 text-start">
+        <h1>Our Popular Services</h1>
+        <hr />
+        <div className="container mb-5 mt-5">
+          <div className="row row-cols-1 row-cols-md-3 g-1">
+            {homeServicesCards.map((homeServiceCard) => (
+              <HomeServicesCard
+                key={homeServiceCard.key}
+                homeServiceCard={homeServiceCard}
+              ></HomeServicesCard>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="container pb-5 mb-3 text-start">
         <h1>Quality</h1>
         <hr />
         <div className="d-flex pt-5">
@@ -149,21 +164,6 @@ const Home = () => {
           View Departments
         </button>
       </div>
-
-      <div className="container pt-5 text-start">
-        <h1>Our Popular Services</h1>
-        <hr />
-        <div className="container mb-5 mt-5">
-          <div className="row row-cols-1 row-cols-md-3 g-1">
-            {homeServicesCards.map((homeServiceCard) => (
-              <HomeServicesCard key={homeServiceCard.key}
-                homeServiceCard={homeServiceCard}
-              ></HomeServicesCard>
-            ))}
-          </div>
-        </div>
-      </div>
-
       <div className="container p-5 mb-3 text-start">
         <h1>Our All Services</h1>
         <hr />
@@ -215,7 +215,9 @@ const Home = () => {
           <div className="ps-4">
             <img src={dep7} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Gynaecology</h5>
-            <h6 className="fw-light pe-3">Gynaecology the with medical health.</h6>
+            <h6 className="fw-light pe-3">
+              Gynaecology the with medical health.
+            </h6>
           </div>
           <div className="ps-4">
             <img src={dep8} alt="" />
@@ -234,7 +236,9 @@ const Home = () => {
           <div className="ps-4">
             <img src={dep10} alt="" />
             <h5 className="pb-2 pt-2 pe-2 fw-normal">Pregnancy</h5>
-            <h6 className="fw-light pe-3">Pregnancy, also is the time during.</h6>
+            <h6 className="fw-light pe-3">
+              Pregnancy, also is the time during.
+            </h6>
           </div>
           <div className="ps-4">
             <img src={dep11} alt="" />
@@ -344,7 +348,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="container pb-5 mb-4  text-start">
         <h1>Our Happy Clients</h1>
         <hr />
