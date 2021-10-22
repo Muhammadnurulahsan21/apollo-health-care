@@ -64,8 +64,6 @@ const Header = () => {
         </div>
       </div>
 
-      
-
       <div className="">
         <Navbar className="p-1 nav-color" expand="lg">
           <Container fluid>
@@ -121,52 +119,4 @@ const Header = () => {
     </div>
   );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* {!user.displayName ? (
-          <>
-            <Link to="/login">
-              <button
-                type="button"
-                className="btn btn-secondary py-2 px-4 m-3 me-2"
-              >
-                Login
-              </button>
-            </Link>
-
-            <Link to="/register">
-              <button
-                type="button"
-                className="btn btn-outline-secondary py-2 px-4 m-3 me-5"
-              >
-                Register
-              </button>
-            </Link>
-          </>
-        ) : (
-          <>
-            <p>{user?.displayName}</p>
-            <button
-              type="button"
-              onClick={logOut}
-              className="btn btn-outline-secondary"
-            >
-              Log Out
-            </button>
-          </>
-        )} */
-
 export default Header;

@@ -4,7 +4,7 @@ import aboutImg01 from "./../../img/a01.jpg";
 import aboutImg02 from "./../../img/a02.jpg";
 import aboutImg03 from "./../../img/a03.jpg";
 import aboutImg04 from "./../../img/a04.jpg";
-import aboutILogo from "./../../img/logo.webp";
+import logo from "./../../img/logo.webp";
 
 
 const About = () => {
@@ -86,7 +86,7 @@ const About = () => {
         </div>
       </div>
       <div className="bg-about-second  text-secoondary pe-4 d-flex justify-content-center p-5">
-        <img height="120px" width="120px" src={aboutILogo} alt="" />
+        <img height="120px" width="120px" src={logo} alt="" />
         <h3 className="pb-4 fw-normal text-white px-5 pt-4">
         Encompassing All Accessible Exclusive Medical Treatment <br /> 
         <span>

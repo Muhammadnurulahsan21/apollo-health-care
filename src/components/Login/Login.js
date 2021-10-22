@@ -80,7 +80,7 @@ const Login = () => {
                 </Form.Group>
                 <div className="d-flex justify-content-between">
                   <div>
-                    <Form.Group className="" controlId="formBasicCheckbox">
+                    <Form.Group controlId="formBasicCheckbox">
                       <Form.Check type="checkbox" label="Remember Me" />
                     </Form.Group>
                   </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Register.css";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import loginUser from "./../../img/loginuser.png";
@@ -7,6 +7,7 @@ import useAuth from "./../../Hooks/UseAuth.js";
 import { Link } from "react-router-dom";
 
 const Register = () => {
+
   const { register, getEmail, getName, getPassword, error } = useAuth();
   return (
     <div className="custom-margin pt-3 d-flex justify-content-center">
@@ -57,7 +58,7 @@ const Register = () => {
                     placeholder="Enter Your Password"
                   />
                 </Form.Group>
-                <div className="d-flex justify-content-between">
+                <div className="text-start">
                   <div className="form-check">
                     <input
                       // onChange={toggleLogin}
@@ -65,13 +66,12 @@ const Register = () => {
                       type="checkbox"
                       id="gridCheck"
                     />
-                    <label className="form-check-label" htmlFor="gridCheck">
-                    </label>
-                    <Link to="/login">
-                    Already have an account? Please login!
-                    </Link>
+                    <Form.Group controlId="formBasicCheckbox">
+                      <Link to="/login">
+                        Already have an account? Please login!
+                      </Link>
+                    </Form.Group>
                   </div>
-                  <div className=" text-dark"></div>
                 </div>
                 <p className="text-danger text-center">{error}</p>
                 <Button

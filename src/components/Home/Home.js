@@ -149,6 +149,21 @@ const Home = () => {
           View Departments
         </button>
       </div>
+
+      <div className="container pt-5 text-start">
+        <h1>Our Popular Services</h1>
+        <hr />
+        <div className="container mb-5 mt-5">
+          <div className="row row-cols-1 row-cols-md-3 g-1">
+            {homeServicesCards.map((homeServiceCard) => (
+              <HomeServicesCard key={homeServiceCard.key}
+                homeServiceCard={homeServiceCard}
+              ></HomeServicesCard>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <div className="container p-5 mb-3 text-start">
         <h1>Our All Services</h1>
         <hr />
@@ -329,19 +344,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container text-start">
-        <h1>Our Popular Services</h1>
-        <hr />
-        <div className="container mb-5 mt-5">
-          <div className="row row-cols-1 row-cols-md-3 g-1">
-            {homeServicesCards.map((homeServiceCard) => (
-              <HomeServicesCard key={homeServiceCard.key}
-                homeServiceCard={homeServiceCard}
-              ></HomeServicesCard>
-            ))}
-          </div>
-        </div>
-      </div>
+      
       <div className="container pb-5 mb-4  text-start">
         <h1>Our Happy Clients</h1>
         <hr />

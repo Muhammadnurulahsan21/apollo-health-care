@@ -2,96 +2,108 @@
   {
     "key": "01",
     "serviceName": "Neurology",
-    "medicalFee": "BDT 5000/=",
-    "testFee": "BDT 2200/=",
+    "medicalFee": "BDT 5,000/=",
+    "testFee": "BDT 2,200/=",
+    "totalCost": "BDT 7,200/=",
     "description": "This type of doctor treats health problems related the brain the nerves. may needmedical lifelong lifelong neurological disorder or have recently developed and the symptoms related to your nerves muscles.",
     "img": "https://medi-cal-img.netlify.app/img/01.png"
   },
   {
     "key": "02",
     "serviceName": "Traumotology",
-    "medicalFee": "BDT 3500/=",
-    "testFee": "BDT 1400/=",
+    "medicalFee": "BDT 3,500/=",
+    "testFee": "BDT 1,500/=",
+    "totalCost": "BDT 5,000/=",
     "description": "Traumatology is practice of treating  diseases of the Locomotor Apparatus produced by a traumatic agent Orthopedic Surgery treats problems of progressive evolution in the musculoskeletal system.",
     "img": "https://medi-cal-img.netlify.app/img/02.png"
   },
   {
     "key": "03",
     "serviceName": "Nephrology",
-    "medicalFee": "BDT 4200/=",
-    "testFee": "BDT 1000/=",
+    "medicalFee": "BDT 4,200/=",
+    "testFee": "BDT 1,000/=",
+    "totalCost": "BDT 5,200/=",
     "description": "The division of nephrology is currently providing multiple therapies by which the blood of the patient is being treated filter the blood from the materials that are associated with the child’s disease.",
     "img": "https://medi-cal-img.netlify.app/img/03.png"
   },
   {
     "key": "04",
     "serviceName": "Cardiology",
-    "medicalFee": "BDT 3500/=",
+    "medicalFee": "BDT 3,500/=",
     "testFee": "BDT 700/=",
+    "totalCost": "BDT 4,200/=",
     "description": "Cardiology is the medical science that is regarding the treatment and diagnosis of any disorders and diseases human heart. Our cardiologists undertake the most feasible course regarding surgery.",
     "img": "https://medi-cal-img.netlify.app/img/04.png"
   },
   {
     "key": "05",
     "serviceName": "Pulmonary",
-    "medicalFee": "BDT 8500/=",
-    "testFee": "BDT 2500/=",
+    "medicalFee": "BDT 8,500/=",
+    "testFee": "BDT 2,500/=",
+    "totalCost": "BDT 11,000/=",
     "description": "Pulmonary critical care, or critical care medicine, is a specialized field of emergency medicine that focuses of the respiratory or pulmonary system, which the lungs, trachea, or diaphragm, structures.",
     "img": "https://medi-cal-img.netlify.app/img/05.png"
   },
   {
     "key": "06",
     "serviceName": "Births",
-    "medicalFee": "BDT 6500/=",
-    "testFee": "BDT 2100/=",
+    "medicalFee": "BDT 6,500/=",
+    "testFee": "BDT 2,100/=",
+    "totalCost": "BDT 8,600/=",
     "description": "Birth centers provide a homey birth setting for the mother, baby, and extended family. In most cases, your baby changes buildings, though attached.care of a your baby during pregnancy.",
     "img": "https://medi-cal-img.netlify.app/img/06.png"
   },
     {
       "key": "07",
       "serviceName": "Gynaecology",
-      "medicalFee": "BDT 5200/=",
+      "medicalFee": "BDT 5,200/=",
       "testFee": "BDT 800/=",
+      "totalCost": "BDT 6,000/=",
       "description": "Gynaecology or gynecology is the medical to practice dealing with the health of the female reproductive system. In many areas, the specialities of gynaecology and obstetrics overlap. means the science of women.",
       "img": "https://medi-cal-img.netlify.app/img/07.png"
     },
     {
       "key": "08",
       "serviceName": "Dental",
-      "medicalFee": "BDT 2500/=",
+      "medicalFee": "BDT 2,500/=",
       "testFee": "BDT 400/=",
+      "totalCost": "BDT 2,900/=",
       "description": "The field of dentistry or dental medicine includes teeth as well as other aspects of the craniofacial complex including the temporomandibular joint and othe A dentist, also the  medical professional.",
       "img": "https://medi-cal-img.netlify.app/img/08.png"
     },
     {
       "key": "09",
       "serviceName": "X-ray",
-      "medicalFee": "BDT 1500/=",
+      "medicalFee": "BDT 1,500/=",
       "testFee": "BDT 500/=",
+      "totalCost": "BDT 2,000/=",
       "description": "We provide Repairs and PM's For All of Your X-ray, CT and Ultrasound machines. Request An Evaluation. Skilled Technicians. Open Monday  to Friday. 26+ Years Experience. Service Areas: North Carolina, South Carolina.",
       "img": "https://medi-cal-img.netlify.app/img/09.png"
     },
     {
       "key": "10",
       "serviceName": "Pregnancy",
-      "medicalFee": "BDT 10000/=",
-      "testFee": "BDT 5200/=",
+      "medicalFee": "BDT 10,000/=",
+      "testFee": "BDT 5,200/=",
+      "totalCost": "BDT 15,200/=",
       "description": "Prenatal care is health care that a woman gets while pregnant. Going early and regularly for prenatal care can help moms-to-be — stay healthy. Regular care lets doctors find and deal with any problems soon possible.",
       "img": "https://medi-cal-img.netlify.app/img/10.png"
     },
     {
       "key": "11",
       "serviceName": "For disabled",
-      "medicalFee": "BDT 8500/=",
-      "testFee": "BDT 4200/=",
+      "medicalFee": "BDT 8,500/=",
+      "testFee": "BDT 4,200/=",
+      "totalCost": "BDT 12,700/=",
       "description": "Disability is extremely diverse. While some health conditions associated However, all people with disability have same general healthcare needs as everyone else, and therefore need to the healthcare services.",
       "img": "https://medi-cal-img.netlify.app/img/02.png"
     },
     {
       "key": "12",
       "serviceName": "NMR",
-      "medicalFee": "BDT 7500/=",
-      "testFee": "BDT 3200/=",
+      "medicalFee": "BDT 7,500/=",
+      "testFee": "BDT 3,200/=",
+      "totalCost": "BDT 10,700/=",
       "description": "NMR performs independent audits to assist healthcare facilities, health plans and/or government agencies in determining the quality of care provided to the Organization that managed care, industries.",
       "img": "https://medi-cal-img.netlify.app/img/12.png"
     }
