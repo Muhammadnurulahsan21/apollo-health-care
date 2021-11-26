@@ -23,4 +23,4 @@ const DoctorsCard = (props) => {
   );
 };
 
-export default DoctorsCard;
+export default DoctorsCard; 

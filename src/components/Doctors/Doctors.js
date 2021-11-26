@@ -15,11 +15,15 @@ const Doctors = () => {
         <h1 className="pt-3 ps-5 ">Our All Doctors</h1>
         <h4 className="pt-1 ps-5 ">Home / Doctors</h4>
       </div>
+
+      
       <div className="container mb-5 mt-5">
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {allDoctors.map((allDoctor) => (
-            <DoctorsCard key={allDoctor.key} 
-            allDoctor={allDoctor}></DoctorsCard>
+            <DoctorsCard
+              key={allDoctor.key}
+              allDoctor={allDoctor}
+            ></DoctorsCard>
           ))}
         </div>
       </div>

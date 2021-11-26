@@ -23,6 +23,7 @@ const AppointmentPages = () => {
           <h5>Home / Service / <span className="fw-light">{service?.serviceName}</span></h5>
           <h2>We provide world class services.</h2>
         </div>
+        
         <div className="bg-about-second  text-secoondary pe-4 d-flex justify-content-center p-5">
           <img height="120px" width="120px" src={logo} alt="" />
           <h3 className="pb-4 fw-normal text-white px-5 pt-4">
